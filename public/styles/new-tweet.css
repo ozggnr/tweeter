@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+textarea {
+  border-color: transparent;
+  border-bottom: 3px solid #545149;
+  background-color:  #f4f1ec;
+  outline: none;  
+  font-size: medium;
+}
+
+button {
+  font-size: 80%;
+  color: #ffffff;
+  background-color:#4056A1;
+  border: #4056A1;
+}
+.tweet-button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: Bungee ,sans-serif;
+}
+output {
+  font-size: 80%;
+  font-family: Bungee ,sans-serif;
+}

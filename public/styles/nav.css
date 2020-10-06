@@ -1,0 +1,18 @@
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #4056A1;
+  height : 120px;
+  color: #ffff;
+  width: 100%;
+  padding: 1.5em;
+}
+span {
+  font-family: Bungee ,sans-serif; 
+  font-size: 180%;
+}
+p {
+  margin: 0;
+}

@@ -13,11 +13,19 @@ html {
 /*
  * Global layout stuff
  */
-
+ * {font-family: "Source Sans Pro", sans-serif;}
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  
+}
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #545149;
 }
 
 /*
