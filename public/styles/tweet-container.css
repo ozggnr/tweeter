@@ -1,0 +1,57 @@
+article {
+  box-sizing: border-box;
+  border: 3px solid #545149;
+  
+}
+article:hover {
+  box-shadow: 5px 5px rgba(111, 148, 179, 0.658);
+}
+article:hover .nickname {
+  opacity: 1;
+  color:  rgba(111, 148, 179, 0.658);
+}
+.nickname {
+  opacity: 0;
+}
+
+.tweet header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  
+}
+.first p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.tweet img {
+  width: 50px;
+}
+
+.tweet-text {
+  padding-left: 20px;
+}
+.tweet footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid #545149;
+  font-size: small;
+  margin: 0.5em;
+}
+.foot-text {
+  margin: 10px;
+}
+i {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  justify-content: space-around;
+  color:#4056A1 ;
+}

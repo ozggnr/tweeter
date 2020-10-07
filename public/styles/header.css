@@ -1,10 +1,11 @@
-header {
+#tweet-header {
+  margin-top: 120px;
   height: 400px;
   width: 100%;
   background-color: #d1986d;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
-div {
+#tweet-header div {
   display: flex;
   justify-content: center;
   align-items: center;
