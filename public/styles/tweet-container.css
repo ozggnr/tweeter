@@ -6,11 +6,11 @@ article {
 article:hover {
   box-shadow: 5px 5px rgba(111, 148, 179, 0.658);
 }
-article:hover .nickname {
+article:hover .handle{
   opacity: 1;
   color:  rgba(111, 148, 179, 0.658);
 }
-.nickname {
+.handle {
   opacity: 0;
 }
 
