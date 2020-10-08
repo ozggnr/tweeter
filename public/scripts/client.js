@@ -45,14 +45,13 @@ $(document).ready( function() {
       $tweets.prepend(createTweetElement(item));
     }
   }
-  
   $("#error").hide()
+  $(".new-tweet").toggle();
   $('#new-tweet-button').submit(function(event) {
     event.preventDefault();
     if($("#tweet-text").val() === "") {
       $('#error').text("there is an error!").slideDown(500)
     } else if ($("#tweet-text").val().length > 140 ) {
-    // const maxMessageLength = 140;
     $('#error').text("there is another error!").slideDown(500)
     } else {
       const serializedData = $(this).serialize();
@@ -61,9 +60,11 @@ $(document).ready( function() {
       data: serializedData
       }).then(() => {
         loadTweets();
-       
       })
     }
+    $(".new-tweet").toggle();
   })
- 
+  $("#click-me").click(function() {
+    $(".new-tweet").toggle();
+  })
 })

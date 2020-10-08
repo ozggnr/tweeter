@@ -15,8 +15,24 @@ span {
   font-family: Bungee ,sans-serif; 
   font-size: 180%;
 }
-p {
+.create-text {
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
+.create-text p {
+  margin : 0;
+}
+#click-me {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
 
-
+#click-me i {
+  color:red;
+  font-size: xx-large;
+}
