@@ -3,7 +3,7 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet-container.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/responsive.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -34,16 +35,12 @@
     <header id="tweet-header">
       <div class="avatar">
           <img src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div>
           <h2 class="name"><strong>Ozge</strong> Gnr</h2>
       </div>
   </header>
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
         <form id="new-tweet-button" method="POST" action="/tweets">
           <div id="error"></div>
           <label for="tweet-text">What are you humming about?</label>
@@ -55,7 +52,6 @@
         </form>
       </section>
       <section id="tweets-container"> 
-       
       </section>
     </main>
   </body>

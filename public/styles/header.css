@@ -5,8 +5,10 @@
   background-color: #d1986d;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
-#tweet-header div {
+#tweet-header {
   display: flex;
+  text-align: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

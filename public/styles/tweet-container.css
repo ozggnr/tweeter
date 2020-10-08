@@ -1,6 +1,7 @@
 article {
   box-sizing: border-box;
   border: 3px solid #545149;
+  min-height: 150px;
   
 }
 article:hover {
@@ -44,6 +45,7 @@ article:hover .handle{
   border-top: 3px solid #545149;
   font-size: small;
   margin: 0.5em;
+  
 }
 .foot-text {
   margin: 10px;

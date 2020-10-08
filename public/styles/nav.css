@@ -3,6 +3,7 @@ nav {
   align-items: flex-start;
   justify-content: space-between;
   background-color: #4056A1;
+  box-shadow: none;
   height : 120px;
   color: #ffff;
   position: fixed;
@@ -17,3 +18,5 @@ span {
 p {
   margin: 0;
 }
+
+

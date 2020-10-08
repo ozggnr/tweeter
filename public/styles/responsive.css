@@ -1,0 +1,29 @@
+/* Tablet: maximum width of 1024px */
+@media only screen and (max-width: 1024px) {
+  nav {
+    background-color: #d1986d;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  }
+}
+
+/* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+ #tweet-header {
+  margin-top: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30em;
+  height: 18em;
+  vertical-align: center;
+  
+ }
+ .container {
+   margin-top: 300px;
+ }
+}
+
+  
