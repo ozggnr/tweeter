@@ -10,7 +10,9 @@ textarea {
   outline: none;  
   font-size: medium;
 }
-
+#error {
+  color: red;
+}
 button {
   font-size: 80%;
   color: #ffffff;
