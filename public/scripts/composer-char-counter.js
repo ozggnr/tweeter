@@ -1,10 +1,11 @@
+//count characters of tweet by considering edge conditions
 $(document).ready(function () {
   const text_max = 140;
     $('#tweet-text').keyup(function() {
       $("#error").slideUp();
       const text_length = $(this).val().length;
       const text_remaining = text_max - text_length;
-      $('.counter').html(text_remaining); //<------
+      $('.counter').html(text_remaining); 
       if (text_remaining < 0) {
         $(".counter").css("color","red");
       } else {
